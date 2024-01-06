@@ -8,7 +8,7 @@ var app = require('../app');
 var debug = require('debug')('backend:server');
 var http = require('http');
 const mongoose=require('mongoose');
-const url="mongodb://127.0.0.1:27017/tekkiWebSolution";
+const url="mongodb+srv://sharewithajitkumar:Zoom2001@cluster0.rpkrvek.mongodb.net/?retryWrites=true&w=majority";
 try{
   const conn=mongoose.connect(url);
   if(conn){
